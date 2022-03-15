@@ -1,0 +1,153 @@
+*{
+    font-family: 'red rose', cursive, sans-serif;
+
+}
+
+body{
+    background-color:#1f1a1a;
+    margin:0;
+    box-sizing: border-box;
+    line-height: 1;
+    display: block;
+    min-width: 320px;
+    padding-left: 13rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size:35px ;
+    
+    
+    
+}
+
+
+
+.entete{
+    color:  #D8D5D5;
+
+}
+
+
+strong{
+    color:#7E9B9E;
+}
+
+
+
+.titre{
+    color:#1ccbdf;
+    padding-top: 80px;
+    margin-bottom: 0;
+ 
+}
+
+
+.text{
+    color:rgb(196,196,196,100%);
+    text-align :left ;
+    margin-right: 40%;
+    
+}
+.text p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.entete h1 {
+    margin: 0 0;
+}
+header{
+    padding: 2em;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: -15px;
+    background-color: #0000;
+    font-size: 25px;
+    
+   
+   
+}
+
+div{
+    color:rgb(209, 21, 21) ;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    
+
+    
+    
+    
+}
+
+
+.main-menu-nav  {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 1.6rem;
+    line-height: 5rem;
+    float:none;
+    line-height: normal;
+    position:static;
+    color:rgb(rgb(124, 153, 206));
+
+
+   }
+
+
+ a {
+    display: block;
+    width: 60px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    text-decoration: none;
+   }
+
+h3{
+    color: red;
+    animation-name: example;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example {
+  0% {color: red;}
+  25% {color: yellow;}
+  50% {color: rgb(11, 213, 248);}
+  100% {color: rgb(15, 240, 15);}
+}
+
+ .container1{
+     margin: 100px 20px auto;
+     gap:5px;
+     display: flex;
+     width: 200px;
+ }
+
+
+
+.container2 {
+justify-content: center;
+}
+
+img{
+    border-radius: 5%;
+    border-width: 3px;
+    border-style: solid ;
+    border-color: rgb(96, 96, 104);
+    box-shadow: 10px 5px 5px rgba(151, 84, 107, 0.562);
+    padding-top: 3px;
+    width: 500px;
+      
+}
+
+iframe{
+    border-radius: 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color:rgb(62, 62, 211) ;
+}
+
