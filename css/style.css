@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:#1f1a1a;
+   background-color: rgb(43, 40, 40);
     margin:0;
     box-sizing: border-box;
     line-height: 1;
@@ -14,6 +14,7 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
     font-size:35px ;
+    
     
     
     
@@ -37,6 +38,7 @@ strong{
     color:#1ccbdf;
     padding-top: 80px;
     margin-bottom: 0;
+    
  
 }
 
@@ -45,6 +47,7 @@ strong{
     color:rgb(196,196,196,100%);
     text-align :left ;
     margin-right: 40%;
+    font-size: 30px;
     
 }
 .text p{
@@ -54,6 +57,7 @@ strong{
 
 .entete h1 {
     margin: 0 0;
+    font-size: 80px;
 }
 header{
     padding: 2em;
@@ -62,7 +66,7 @@ header{
     top: 0;
     bottom: 0;
     margin-top: -15px;
-    background-color: #0000;
+    background-image: linear-gradient(0deg, rgba(57, 52, 58, 0.82) 34%, rgba(91, 158, 148, 0.6) 48%, rgba(98, 99, 100, 0.76) 57%, rgba(139, 125, 125, 0.77) 64%);
     font-size: 25px;
     
    
@@ -97,55 +101,81 @@ div{
    }
 
 
- a {
+  .nav1{
     display: block;
     width: 60px;
-    text-decoration: underline;
     padding-bottom: 20px;
     text-decoration: none;
-   }
+    color: #1ccbdf;
+   
+  }
+
 
 h3{
-    color: red;
-    animation-name: example;
+    animation-name: titlechange;
     animation-delay: 2s;
     animation-duration: 5s;
     animation-iteration-count:infinite;
 }
 
-@keyframes example {
+@keyframes titlechange {
   0% {color: red;}
   25% {color: yellow;}
   50% {color: rgb(11, 213, 248);}
   100% {color: rgb(15, 240, 15);}
 }
 
- .container1{
-     margin: 100px 20px auto;
-     gap:5px;
-     display: flex;
-     width: 200px;
+ .container1  {
+
+   display:inline-block;
+   margin-top: 100px;
+
+    
  }
-
-
-
-.container2 {
-justify-content: center;
-}
-
+ 
 img{
-    border-radius: 5%;
+
     border-width: 3px;
     border-style: solid ;
     border-color:rgba(85, 132, 138, 0.562) ;
     box-shadow: 10px 5px 5px rgba(151, 84, 107, 0.562);
     padding-top: 3px;
     width: 500px;
-      
-}
+    outline: 1px solid rgba(85, 132, 138, 0.562);
+    transition: outline 1s ease 0s;
 
-.map{
+}
+img:hover{
+    outline: 10px solid rgb(182, 103, 103);
+}
+  
+#map{
     margin-top: 100px;
     margin-left: 600px;
     
+}
+
+.interaction{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    
+}
+
+.formulaire{
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin-right: 70px;
+    margin-top: 100px; 
+   
+    
+}
+
+.frame{
+    
+     flex-basis: 50%;
+     flex-grow: 1;
+     margin-left: -600px;
+    margin-right: 100px;
+
 }
